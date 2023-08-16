@@ -1,0 +1,31 @@
+
+.tt{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    padding: 30px;
+}
+
+.pp{
+    margin: 20px 130px;
+}
+
+.aa{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.rr{
+margin-right: 25px;
+transition: transform 0.3s;
+padding: 8px;
+border-radius: 5px;
+
+}
+
+.rr:hover{
+    background-color: rgb(13, 101, 216);
+    transform: scale(1.1);
+}
