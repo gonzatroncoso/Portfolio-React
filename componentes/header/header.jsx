@@ -1,4 +1,4 @@
-import React from "react";
+
 // import Button from "@material-ui/core/Button"
 // import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
@@ -16,14 +16,9 @@ export const Header = () => {
     <Box className= "pp">
       <AppBar position="static" className= "aa">
         <Toolbar>
-          <IconButton className="gg tt"
-            // size="large"
-            // edge="start"
-            // color="inherit"
-            // aria-label="menu"
-            // sx={{ mr: 2 }}
-          >
-            <MenuIcon />
+          <IconButton className="gg tt">
+            {/* <MenuIcon /> */}
+            <a>&lt;Gonzalo/&gt;</a>
           </IconButton>
         </Toolbar>
           <div className="tt">

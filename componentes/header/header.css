@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: row;
     flex-grow: 0;
-    padding: 30px;
+    padding: 20px;
 }
 
 .pp{
-    margin: 20px 130px;
+    margin: 20px;
 }
 
 .aa{
@@ -28,4 +28,8 @@ border-radius: 5px;
 .rr:hover{
     background-color: rgb(13, 101, 216);
     transform: scale(1.1);
+}
+
+a{
+    color: white;
 }

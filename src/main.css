@@ -1,4 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Circular Std Book',sans-serif;
+}
+
+body{
+    background-color: #1A1B23;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    max-width: 80%;
+    margin: 0 auto;
 }
