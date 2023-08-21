@@ -42,9 +42,7 @@ export const Educacion = () => {
     <>
         <section className='contenedor-educacion'>
             <h3 className='titulo-educacion'>Educacion</h3>
-            <div className=''>
                 <div className='contenedor-cards'>{generateCards()}</div>
-            </div>
         </section>
     </>
   )
