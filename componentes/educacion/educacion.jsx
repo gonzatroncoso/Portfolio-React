@@ -1,5 +1,4 @@
 import './educacion.css'
-// import coder from './src/assets/coder.png'
 
 export const Educacion = () => {
 

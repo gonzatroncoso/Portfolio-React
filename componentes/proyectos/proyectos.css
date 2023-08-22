@@ -9,11 +9,8 @@
       display: grid; 
       grid-template-columns: 1fr 2fr; 
       grid-template-rows: 1fr; 
-      /* gap: 0px 0px;  */
-      /* width: 75%; */
       text-align: center;
       align-items: center;   
-      /* border: 1px solid rgb(9, 240, 240); */
       border-radius: 10px;    
       margin-top: 100px;
       margin-bottom: 50px;
@@ -43,36 +40,20 @@
   }
 
   .icono-containerProyecto{
-    /* margin-left: 0px; */
     margin-top: 10px;
-    /* width: 20%; */
     display: flex; 
-    /* grid-template-columns: 0.4fr 0.4fr 0.4fr;  */
-    /* gap: 0px 0px;  */
+
   }
 
   .h4-tecnologias{
     display: flex;
     margin-top: 13px;
   }
-  
-.iconoProyecto{
-    /* margin-left: 35px;
-    margin-right: 30px; */
-    /* display: flex; */
-    /* margin: 0 auto; */
-    border: 1px solid #1976d2;
-    border-radius: 5px;
-    padding: 4px;
-    color: #1976d2;
-    margin-right: 7px;
-  }
 
   .containers {
-    /* position: relative; */
     width: 100%;
     background-image: none;
-    /* height: 100%; */
+
   }
   .containers:hover{
     border: 1px solid #1976d2;
@@ -84,18 +65,6 @@
     background-color:  black;
   }
 
-  
-/* .middle {
-    display: flex;
-    transition: .5s ease;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  } */
 
   
 .borde-enlace{
@@ -110,19 +79,24 @@
 .h4-git-demo{
     display: flex;
 }
-h5{
+.link-demo-git{
     margin-right: 9px;
     margin-top: 15px;
     font-size: 15px;
+    text-decoration: none;
 }
 
-
-  /* .text {
-    background-color: rgb(9, 240, 240);
-    background-image: none;
-    color: black;
-    font-size: 16px;
-    padding: 10px 22px;
-    margin-left: 5px;
-    border-radius: 10px; 
-  } */
+  .contenedor-tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tecnologias {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+    padding: 4px;
+    color: #1976d2;
+    margin-right: 7px;
+  }
