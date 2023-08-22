@@ -1,24 +1,17 @@
 
-.carousel-container {
-     display: flex; 
-    justify-content: center;
-     align-items: center; 
-
-}
-
-.carousel-inner {
-    /* display: flex;
-    justify-content: space-evenly; */
-    transition: transform 0.3s ease-in-out;
-    max-width: 100%;
-}
-
-.carousel-image {
+.carousel-item {
     /* flex: 0 0 33.33%;  */
     /* margin: 0 5px; */
     background-color: rgba(150, 150, 150, 0.1);
     border-radius: 8px;
     padding: 13px;
+    text-align: center;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .titulo-habilidades{
@@ -29,4 +22,22 @@
     margin-bottom: 45px;
 }
 
+.nombre-habilidades{
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .carousel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 25%;
+        margin: 0 auto;      
+        margin-bottom: 50px;
+    }
+
+    .carousel-item{
+        margin-bottom: 18px;
+    }
+  }
 

@@ -5,6 +5,7 @@ import {SobreMi} from '../componentes/sobre-mi/SobreMi'
 import {Educacion} from '../componentes/educacion/educacion'
 import ResponsiveAppBar from '../componentes/header-mobile/Header-mobile'
 import App from '../componentes/habilidades/Habilidades'
+import {Proyectos} from '../componentes/proyectos/Proyectos'
 
 import './main.css'
 
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SobreMi />
     <Educacion />
     <App />
+    <Proyectos/>
   </React.StrictMode>,
 )
