@@ -5,19 +5,19 @@ export const Educacion = () => {
     const generateCards = () => {
         const cardData = [
           {
-            imagen: "src/assets/coder.png",
+            imagen: "./src/assets/coder.png",
             titulo: 'Desarrollo web frontend',
             instituto: 'CoderHouse',
             descripcion: 'Ruta frontend con Javascript - React',
           },
           {
-            imagen: "src/assets/ifts.jpg",
+            imagen: "./src/assets/ifts.jpg",
             titulo: 'Desarrollador de software',
             instituto: 'I.F.T.S 11',
             descripcion: 'Tecnicatura Superior en Desarrollo de Software (en curso)',
           },
           {
-            imagen: 'src/assets/mindhub1.png',
+            imagen: './src/assets/mindhub1.png',
             titulo: 'Bootcamp Mindhub',
             instituto: 'Mindhub',
             descripcion: 'Intensivo desarrollo frontend Javascript',

@@ -6,7 +6,7 @@ import './proyectos.css'
 const cardsData = [
   {
     id: 1,
-    imagen: '/src/assets/img-events.png',
+    imagen: './src/assets/img-events.png',
     titulo: 'A-Events',
     descripcion: 'Proyecto para bootcamp de MindHub. Se fue realizando a medida que pasaba la cursada, mediante retos diarios. Es una web sobre eventos en el cual se puede filtrar por categorias y tambien por un buscador cada uno de los eventos que se muestran en pantalla. Tambien tiene 2 secciones en las que se puede observar eventos pasados y futuros, ademas de un apartado de contacto y estadisticas. Se hizo hincapie en Javascript vanilla, para mostrar los conocimientos aprendidos durante el bootcamp.',
     lenguajes: ['HTML', 'CSS', 'Javascript'],
@@ -15,7 +15,7 @@ const cardsData = [
   },
   {
     id: 2,
-    imagen: '/src/assets/generic.png',
+    imagen: './src/assets/generic.png',
     titulo: 'Generic',
     descripcion: '"Conversión de Diseño Figma a Página Web Estática y Responsive". Tiene como objetivo llevar un diseño creado en la plataforma de diseño Figma y convertirlo en una página web estática y totalmente responsive. Con el fin de brindar una experiencia visualmente atractiva y funcional para los usuarios.',
     lenguajes: ['HTML', 'CSS'],
@@ -24,7 +24,7 @@ const cardsData = [
   },
   {
     id: 3,
-    imagen: '/src/assets/img-todoList.png',
+    imagen: './src/assets/img-todoList.png',
     titulo: 'Todo List',
     descripcion: 'Aplicación web interactiva que permite a los usuarios crear, gestionar y dar seguimiento a sus tareas diarias de manera eficiente. Con un diseño limpio y fácil de usar, proporciona una plataforma intuitiva para organizar y mantener un registro de las actividades pendientes y completadas.',
     lenguajes: ['HTML', 'CSS', 'Javascript'],
@@ -33,7 +33,7 @@ const cardsData = [
   },
   {
     id: 4,
-    imagen: '/src/assets/img-webShoes.png',
+    imagen: './src/assets/img-webShoes.png',
     titulo: 'Ecommerce Sneakers',
     descripcion: 'Aqui se muestra un proyecto hecho en modo de practica para mejorar lo aprendido. Es un desafio del conocido Frontend Mentor, utilice un diseño anteriormente maquetado y consta de lograr "imitar" una de sus creaciones.',
     lenguajes: ['HTML', 'CSS', 'Javascript','Sass'],
@@ -42,7 +42,7 @@ const cardsData = [
   },
   {
     id: 5,
-    imagen: '/src/assets/web-fullgym.png',
+    imagen: './src/assets/web-fullgym.png',
     titulo: 'Full Gym',
     descripcion: 'Esta fue una de mis primeras páginas webs en mi primer curso. Es una web informativa sobre un gimnasio. Tiene 5 secciones en las cuales se ven imágenes, animaciones e información..',
     lenguajes: ['HTML', 'CSS', 'Sass'],
