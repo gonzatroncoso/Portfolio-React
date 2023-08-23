@@ -1,7 +1,4 @@
-
 import './proyectos.css'
-
-
 
 const cardsData = [
   {
