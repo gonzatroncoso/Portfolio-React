@@ -62,7 +62,7 @@ const App = () => {
 
   return (
     <>
-      <h3 className='titulo-habilidades'>Habilidades</h3>
+      <h3 id='habilidades' className='titulo-habilidades'>Habilidades</h3>
       <div className="carousel">
         {renderImages()}
       </div>

@@ -54,16 +54,15 @@ const cardsData = [
 export const Proyectos = () => {
   return (
     <> 
+      <h3 className='titulo-habilidades'>Proyectos</h3>
         {cardsData.map((card) => (
-                  <div key={card.id} className="container-proyecto">
+                  <div key={card.id} id='proyectos' className="container-proyecto">
                       <div className="containers">
                         <img className="hvr-float-shadow img-proyectos" src={card.imagen} alt="icono-html"/>
                       </div>
-
                     <div className="texto-proyecto">
                         <h2 className="h1-proyecto">{card.titulo}</h2>
-                        <p className="explicacion-proyecto"> 
-                            
+                        <p className="explicacion-proyecto">                             
                             {card.descripcion}
                         </p>
                         <hr />

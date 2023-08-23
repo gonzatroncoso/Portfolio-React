@@ -5,7 +5,6 @@ export const Educacion = () => {
     const generateCards = () => {
         const cardData = [
           {
-            
             imagen: "src/assets/coder.png",
             titulo: 'Desarrollo web frontend',
             instituto: 'CoderHouse',
@@ -31,7 +30,6 @@ export const Educacion = () => {
                     <h4 className="card-titulo ">{card.titulo}</h4>
                     <h5 className="card-instituto ">{card.instituto}</h5>
                     <p className="card-descripcion ">{card.descripcion}</p>
-                    <button className="card-btn ">Certificado</button>
                 </div>
             </div>
           ));
