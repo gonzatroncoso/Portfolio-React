@@ -5,7 +5,7 @@ import './habilidades.css'
 
 const App = () => {
   const images = [
-    {img: "https://i.ibb.co/s3WVtdb/icons8-git-70.png",
+    {img: "https://i.ibb.co/d0zzHZH/icons8-html-5-70.png",
     nombre:"HTML"
     },
     {img: "https://i.ibb.co/DY4bzRL/icons8-css3-70.png",
